@@ -1,0 +1,13 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "LCR365ZNU6.com.sonerxdev.skald",
+                "paths": [
+                    "/skald/*"
+                ]
+            }
+        ]
+    }
+}
