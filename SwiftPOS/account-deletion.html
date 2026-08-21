@@ -1,1 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Deletion & Data Retention Policy - SwiftPOS</title>
+    <style>
+        :root {
+            --primary: #1e293b;
+            --accent: #2563eb;
+            --text: #334155;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --border: #e2e8f0;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid var(--border);
+        }
+        header {
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+        h1 {
+            color: var(--primary);
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: #64748b;
+            font-size: 15px;
+        }
+        h2 {
+            color: var(--primary);
+            font-size: 20px;
+            margin-top: 28px;
+            margin-bottom: 12px;
+        }
+        p {
+            margin-bottom: 16px;
+        }
+        ul {
+            margin-bottom: 20px;
+            padding-left: 24px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .card {
+            background-color: #f1f5f9;
+            border-left: 4px solid var(--accent);
+            padding: 16px 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 20px 0;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            font-size: 14px;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Account Deletion & Data Retention Policy</h1>
+            <div class="subtitle">Official Data Policy for <strong>SwiftPOS</strong></div>
+        </header>
 
+        <p>This page describes how users can request the deletion of their account and associated data for <strong>SwiftPOS</strong>, as well as our policy regarding data retention and permanent deletion.</p>
+
+        <h2>1. How to Request Account Deletion</h2>
+        <p>You can request account deletion using either of the following two methods:</p>
+
+        <div class="card">
+            <strong>Method A: In-App Deletion (Instant & Recommended)</strong>
+            <p style="margin-top: 8px; margin-bottom: 0;">Open the <strong>SwiftPOS</strong> app, navigate to <strong>Profile</strong> &gt; tap <strong>Delete Account</strong>, and confirm your request.</p>
+        </div>
+
+        <div class="card">
+            <strong>Method B: Web / Email Request</strong>
+            <p style="margin-top: 8px; margin-bottom: 0;">If you no longer have access to the app, send an email to <a href="mailto:support.swiftpos@gmail.com">support.swiftpos@gmail.com</a> with the subject line <code>"Account Deletion Request"</code>. Please send the email from the email address registered with your SwiftPOS account. Your request will be processed within 30 days.</p>
+        </div>
+
+        <h2>2. Data That Will Be Permanently Deleted</h2>
+        <p>Upon account deletion, the following data associated with your account will be permanently purged from our primary servers:</p>
+        <ul>
+            <li>User account credentials (Name, Email Address, Password)</li>
+            <li>In-app profile preferences and user settings</li>
+            <li>Device tokens and active session logs</li>
+        </ul>
+
+        <h2>3. Data That May Be Retained & Retention Periods</h2>
+        <p>Certain limited transactional or business operational records may be retained to fulfill legal, tax, fraud prevention, or financial regulatory requirements:</p>
+        <ul>
+            <li><strong>Invoicing and Purchase Records:</strong> Financial transaction histories (such as subscription status or billing records) will be retained in accordance with applicable tax and commercial laws for a period of up to 5 to 10 years.</li>
+            <li><strong>Security and Audit Logs:</strong> Security logs may be preserved for a maximum of 90 days prior to automatic overwrite.</li>
+        </ul>
+
+        <h2>4. Related Documents & Legal Policies</h2>
+        <p>For further information about how SwiftPOS collects, processes, and protects your information, please review our full legal documentation:</p>
+        <ul>
+            <li><a href="https://raw.githubusercontent.com/sonerxdev/sonerxdev.github.io/refs/heads/main/SwiftPOS/PrivacyPolicy.md" target="_blank" rel="noopener noreferrer">SwiftPOS Privacy Policy</a></li>
+            <li><a href="https://raw.githubusercontent.com/sonerxdev/sonerxdev.github.io/refs/heads/main/SwiftPOS/TermsConditions.md" target="_blank" rel="noopener noreferrer">SwiftPOS Terms & Conditions</a></li>
+        </ul>
+
+        <footer>
+            <p>&copy; SwiftPOS. If you have any questions regarding this policy, please contact us at <a href="mailto:support.swiftpos@gmail.com">support.swiftpos@gmail.com</a>.</p>
+        </footer>
+    </div>
+</body>
+</html>
